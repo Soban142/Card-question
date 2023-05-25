@@ -9,12 +9,18 @@ var icon3 = document.querySelector('.icon3')
 
 icon1.addEventListener('click', () => {
     hiddenitem1.classList.toggle('hidden')  
+    hiddenitem2.classList.add('hidden')  
+    hiddenitem3.classList.add('hidden')  
 })
 
 icon2.addEventListener('click', () => {
     hiddenitem2.classList.toggle('hidden')  
+    hiddenitem1.classList.add('hidden')  
+    hiddenitem3.classList.add('hidden')  
 })
 
 icon3.addEventListener('click', () => {
     hiddenitem3.classList.toggle('hidden')  
+    hiddenitem2.classList.add('hidden')  
+    hiddenitem1.classList.add('hidden')  
 })
